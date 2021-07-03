@@ -61,7 +61,9 @@ class _MyAppState extends State<MyApp> {
             ),
             TextButton(
               onPressed: () {
-                FlutterTxRecord.startRecord();
+                FlutterTxRecord.startRecord().then((value){
+                  print('我收到录制视频回调:$value');
+                });
               },
               child: Text('开始录制'),
             ),

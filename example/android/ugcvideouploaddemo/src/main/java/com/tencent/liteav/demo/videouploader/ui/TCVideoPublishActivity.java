@@ -208,11 +208,20 @@ public class TCVideoPublishActivity extends FragmentActivity implements View.OnC
                 // 注意：如果取消发送时，是取消的剩余未上传的分片发送，如果视频比较小，分片已经进入任务队列了是无法取消的。此时不跳转到下一个界面。
                 if (result.retCode == TXUGCPublishTypeDef.PUBLISH_RESULT_OK) {
                     Toast.makeText(TCVideoPublishActivity.this, R.string.ugcupload_toast_publish_success, Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(TCVideoPublishActivity.this, SuperPlayerActivity.class);
-                    intent.putExtra(Constants.PLAYER_DEFAULT_VIDEO, false);
-                    intent.putExtra(Constants.PLAYER_VIDEO_ID, result.videoId);
-                    intent.putExtra(Constants.PLAYER_VIDEO_NAME, mTitleStr);
-                    startActivity(intent);
+                    Intent intent = new Intent("com.zhaizhishe.flutterTxRecord");
+                    intent.putExtra("action","upload");
+                    intent.putExtra("videoURL",result.videoURL);
+                    intent.putExtra("coverURL",result.coverURL);
+                    intent.putExtra("videoId",result.videoId);
+                    intent.putExtra("retCode",result.retCode);
+                    intent.putExtra("descMsg",result.descMsg);
+                    sendBroadcast(intent);
+                    finish();
+//                    Intent intent = new Intent(TCVideoPublishActivity.this, SuperPlayerActivity.class);
+//                    intent.putExtra(Constants.PLAYER_DEFAULT_VIDEO, false);
+//                    intent.putExtra(Constants.PLAYER_VIDEO_ID, result.videoId);
+//                    intent.putExtra(Constants.PLAYER_VIDEO_NAME, mTitleStr);
+//                    startActivity(intent);
                 } else {
                     if (result.descMsg.contains("java.net.UnknownHostException") || result.descMsg.contains("java.net.ConnectException")) {
                         Toast.makeText(TCVideoPublishActivity.this, getString(R.string.ugcupload_error_publish_without_network, result.descMsg), Toast.LENGTH_SHORT).show();

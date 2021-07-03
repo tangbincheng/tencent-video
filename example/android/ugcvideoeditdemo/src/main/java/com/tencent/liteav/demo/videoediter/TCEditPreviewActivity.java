@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -38,25 +39,25 @@ public class TCEditPreviewActivity extends Activity implements View.OnClickListe
 
     private static final String ARGUMENTS_ERROR_TITLE = "errorMsg";
 
-    private ImageView           mImageStartPreview;
-    private ImageView           mImageToEdit;
-    private ImageView           mImageViewBg;
-    private TXVodPlayer         mTXVodPlayer;
-    private TXVodPlayConfig     mTXPlayConfig;
-    private TXCloudVideoView    mTXCloudVideoView;
-    private SeekBar             mSeekBar;
-    private TextView            mTextProgressTime;
+    private ImageView mImageStartPreview;
+    private ImageView mImageToEdit;
+    private ImageView mImageViewBg;
+    private TXVodPlayer mTXVodPlayer;
+    private TXVodPlayConfig mTXPlayConfig;
+    private TXCloudVideoView mTXCloudVideoView;
+    private SeekBar mSeekBar;
+    private TextView mTextProgressTime;
     private ErrorDialogFragment mFragmentErrDlg;    //错误消息弹窗
 
-    private String    mVideoPath;
-    private String    mCoverImagePath;
-    private long      mVideoDuration;               //视频时长（ms）
-    private int       mVideoResolution;             //录制界面传过来的视频分辨率
-    private boolean   mVideoPlay       = false;
-    private boolean   mVideoPause      = false;
-    private boolean   mAutoPause       = false;
-    private boolean   mStartSeek       = false;
-    private long      mTrackingTouchTS = 0;
+    private String mVideoPath;
+    private String mCoverImagePath;
+    private long mVideoDuration;               //视频时长（ms）
+    private int mVideoResolution;             //录制界面传过来的视频分辨率
+    private boolean mVideoPlay = false;
+    private boolean mVideoPause = false;
+    private boolean mAutoPause = false;
+    private boolean mStartSeek = false;
+    private long mTrackingTouchTS = 0;
 
 
     @Override
@@ -141,6 +142,15 @@ public class TCEditPreviewActivity extends Activity implements View.OnClickListe
             } else {
                 startPlay();
             }
+        } else if (id == R.id.btn_upload) {
+            Intent intent = new Intent("com.zhaizhishe.TxRecord");
+            intent.putExtra("action", "upload1");
+            intent.putExtra("path", mVideoPath);
+//        intent.putExtra("licenceUrl",licenceUrl);
+//        intent.putExtra("licenseKey",licenseKey);
+            sendBroadcast(intent);
+            finish();
+//            Intent intent=new Intent(this,TCVideoPublishActivity);
         }
 
     }

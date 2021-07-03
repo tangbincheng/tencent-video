@@ -98,4 +98,17 @@
         android:layout_height="wrap_content"
         android:text="Button"
         android:visibility="gone" />
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:visibility="visible"
+        android:onClick="onClick"
+        android:background="@drawable/ugckit_drawable_ugc_red_next"
+        android:text="上传"
+        android:textColor="@color/ugckit_white"
+        android:textSize="@dimen/ugckit_h5" />
 </RelativeLayout>

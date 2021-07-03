@@ -9,6 +9,9 @@ import android.util.Log;
 
 import com.tencent.liteav.demo.videoediter.TCVideoPickerActivity;
 import com.tencent.liteav.demo.videorecord.TCVideoRecordActivity;
+import com.tencent.liteav.demo.videouploader.ui.TCCompressActivity;
+import com.tencent.liteav.demo.videouploader.ui.TCVideoPublishActivity;
+import com.tencent.liteav.demo.videouploader.ui.utils.Constants;
 import com.tencent.qcloud.ugckit.UGCKit;
 import com.tencent.rtmp.TXLiveBase;
 import com.tencent.ugc.TXUGCBase;
@@ -41,6 +44,13 @@ public class TxRecordReceiver extends BroadcastReceiver {
             context.startActivity(intentActivity);
         }else if(action.equals("chooseVideo")){
             Intent intentActivity=new Intent(context, TCVideoPickerActivity.class);
+            context.startActivity(intentActivity);
+        }else if(action.equals("upload1")){
+            String videoPath=intent.getStringExtra("path");
+            String mVideoSourcePath=intent.getStringExtra("path");
+            Intent intentActivity=new Intent(context, TCVideoPublishActivity.class);
+            intentActivity.putExtra(Constants.VIDEO_EDITER_PATH, videoPath);
+            intentActivity.putExtra(Constants.VIDEO_SOURCE_PATH, mVideoSourcePath);
             context.startActivity(intentActivity);
         }
 

@@ -12,14 +12,15 @@ class FlutterTxRecord {
   }
 
   static Future init(String licenceUrl, String licenseKey) {
-    return _channel.invokeListMethod(
+    return _channel.invokeMethod(
         'init', {'licenceUrl': licenceUrl, 'licenseKey': licenseKey});
   }
 
   static Future<dynamic> startRecord() {
-    return _channel.invokeListMethod('startRecord');
+    return _channel.invokeMethod('startRecord');
   }
+
   static Future<dynamic> chooseVideo() {
-    return _channel.invokeListMethod('chooseVideo');
+    return _channel.invokeMethod('chooseVideo');
   }
 }

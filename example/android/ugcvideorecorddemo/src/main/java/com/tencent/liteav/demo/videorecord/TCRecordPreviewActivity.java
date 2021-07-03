@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.tencent.qcloud.ugckit.UGCKitConstants;
+import com.tencent.qcloud.ugckit.basic.ITitleBarLayout;
 import com.tencent.qcloud.ugckit.utils.AlbumSaver;
 import com.tencent.qcloud.ugckit.utils.FileUtils;
 import com.tencent.rtmp.ITXVodPlayListener;
@@ -137,6 +138,15 @@ public class TCRecordPreviewActivity extends Activity implements View.OnClickLis
             }
         } else if (id == R.id.record_to_edit) {
             startEditVideo();
+        }else if(id==R.id.btn_upload){
+            Intent intent=new Intent("com.zhaizhishe.TxRecord");
+            intent.putExtra("action","upload1");
+            intent.putExtra("path",mVideoPath);
+//        intent.putExtra("licenceUrl",licenceUrl);
+//        intent.putExtra("licenseKey",licenseKey);
+           sendBroadcast(intent);
+           finish();
+//            Intent intent=new Intent(this,TCVideoPublishActivity);
         }
     }
 
