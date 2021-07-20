@@ -142,7 +142,7 @@ public class MethodUtil {
 
     }
 }
-```
+```java
 example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/TxRecordReceiver.java
 ```
 public class TxRecordReceiver extends BroadcastReceiver {
