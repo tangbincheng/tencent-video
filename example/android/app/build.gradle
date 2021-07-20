@@ -42,7 +42,7 @@ android {
         versionName "8.8.912"
         multiDexEnabled true
         ndk {
-            abiFilters "armeabi-v7a"
+            abiFilters "armeabi,armeabi-v7a,arm64-v8a"
         }
     }
 
@@ -51,6 +51,11 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+        }
+        debug{
+            ndk {
+                abiFilters 'armeabi', 'armeabi-v7a'
+            }
         }
     }
     packagingOptions {
@@ -67,8 +72,10 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'src/main/jniLibs', includes: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
 
     compile project(':ugcvideoeditdemo')
     compile project(':ugcvideojoindemo')
