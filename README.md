@@ -5,7 +5,7 @@ A new flutter plugin project.
 ## Getting Started
 要比较修改一下文件
 example / android / settings.gradle
-```android
+```java
 include ':app'
 include ':ugckit'
 include ':beautysettingkit'
