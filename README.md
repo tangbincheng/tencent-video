@@ -42,7 +42,7 @@ plugins.each { name, path ->
 }
 ```
 example/android/gradle.properties
-```
+```java
 org.gradle.jvmargs=-Xmx1536M
 android.useAndroidX=true
 android.enableJetifier=true
@@ -54,7 +54,7 @@ videoEngineSourcePath=
 ```
 
 example / android / build.gradle
-```
+```java
 def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
 def plugins = new Properties()
 def pluginsFile = new File(flutterProjectRoot.toFile(), '.flutter-plugins')
@@ -64,7 +64,7 @@ if (pluginsFile.exists()) {
 
 ```
 
-```
+```java
 allprojects {
     repositories {
         flatDir {
@@ -80,7 +80,7 @@ allprojects {
 ```
 
 example / android / app / build.gradle
-```
+```java
 dependencies {
     compile 'com.mcxiaoke.volley:library:1.0.19'
     compile 'com.github.bumptech.glide:glide:3.7.0'
@@ -189,7 +189,7 @@ public class TxRecordReceiver extends BroadcastReceiver {
 
 关于跟flutter_tencentplayer插件冲突解决办法
 修改flutter_tencentplayer的Android app 底下的build.gradle
-```
+```java
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    implementation(name: 'LiteAVSDK_Player_7.6.9376', ext: 'aar')
