@@ -3,10 +3,11 @@ package com.tencent.liteav.demo.videoediter;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 
 import com.tencent.qcloud.ugckit.UGCKitConstants;
 import com.tencent.qcloud.ugckit.UGCKitVideoCut;
