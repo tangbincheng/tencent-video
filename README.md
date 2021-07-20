@@ -107,7 +107,7 @@ dependencies {
 ```
 
 example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/MainActivity.kt
-```
+```java
 class MainActivity: FlutterActivity() {
     lateinit var  methodUtil: MethodUtil
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -144,7 +144,7 @@ public class MethodUtil {
 }
 ```
 example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/TxRecordReceiver.java
-```
+```java
 public class TxRecordReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
