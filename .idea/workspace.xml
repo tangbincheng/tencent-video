@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc0dd27-ff81-4add-8b1e-eb5b91d54023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/android/app/libs/LiteAVSDK_Player_7.6.9376.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/android/app/libs/libsuperplayer.aar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/ugckit/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/ugckit/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/ugcvideoeditdemo/src/main/java/com/tencent/liteav/demo/videoediter/TCVideoCutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/ugcvideoeditdemo/src/main/java/com/tencent/liteav/demo/videoediter/TCVideoCutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/libs/LiteAVSDK_Player_7.6.9376.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/libs/libsuperplayer.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libRSSupport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libliteavsdk.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libnetworkbase.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libqalcodecwrapper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libqalmsfboot.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/librsjni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libsoundtouch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libtxffmpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libtxplayer.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libtxsdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libuploadnetwork.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/arm64-v8a/libwtcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libRSSupport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libliteavsdk.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libnetworkbase.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libqalcodecwrapper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libqalmsfboot.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/librsjni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libsoundtouch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libtxffmpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libtxplayer.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libtxsdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libuploadnetwork.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi-v7a/libwtcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libRSSupport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libblasV8.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libliteavsdk.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libnetworkbase.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libqalcodecwrapper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libqalmsfboot.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/librsjni.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libsoundtouch.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libtxffmpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libtxplayer.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libtxsdl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libuploadnetwork.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/armeabi/libwtcrypto.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/mobilepb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/qalsdk.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/jniLibs/soload.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/TxRecordReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/TxRecordReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -29,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/flutter_tx_record.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="299">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -47,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="614">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -65,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="566">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -99,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,20 +158,20 @@
             <path>
               <item name="flutter_tx_record" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_tx_record" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/android" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -157,8 +201,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36353946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36353946" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -168,13 +213,13 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4989339" weight="0.30151844" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49840087" visible="true" weight="0.29934925" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.4989339" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49840087" weight="0.27114967" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.36117136" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" visible="true" weight="0.4175705" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -201,10 +246,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/flutter/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7659">
+          <caret line="342" column="19" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/flutter_tx_record.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="299">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -218,24 +270,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/flutter/flutter/packages/flutter/lib/src/services/platform_channel.dart">
+    <entry file="file://$PROJECT_DIR$/example/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7659">
-          <caret line="342" column="19" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
+        <state relative-caret-position="614">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="566">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>

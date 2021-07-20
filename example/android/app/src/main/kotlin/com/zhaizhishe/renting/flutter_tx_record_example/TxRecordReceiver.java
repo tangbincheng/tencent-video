@@ -9,7 +9,6 @@ import android.util.Log;
 
 import com.tencent.liteav.demo.videoediter.TCVideoPickerActivity;
 import com.tencent.liteav.demo.videorecord.TCVideoRecordActivity;
-import com.tencent.liteav.demo.videouploader.ui.TCCompressActivity;
 import com.tencent.liteav.demo.videouploader.ui.TCVideoPublishActivity;
 import com.tencent.liteav.demo.videouploader.ui.utils.Constants;
 import com.tencent.qcloud.ugckit.UGCKit;
@@ -27,8 +26,8 @@ public class TxRecordReceiver extends BroadcastReceiver {
             String licenseKey=intent.getStringExtra("licenseKey");
             TXLiveBase.setConsoleEnabled(true);
 //                   initBugly();
-            UGCKit.init(context);
-            TXLiveBase.getInstance().setLicence(context, licenceUrl, licenseKey);
+//            UGCKit.init(context);
+//            TXLiveBase.getInstance().setLicence(context, licenceUrl, licenseKey);
 
             // 短视频licence设置
             TXUGCBase.getInstance().setLicence(context, licenceUrl, licenseKey);
