@@ -125,7 +125,7 @@ class MainActivity: FlutterActivity() {
 
 新增
 example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/MethodUtil.java
-```
+```java
 public class MethodUtil {
     TxRecordReceiver recordReceiver;
     public  void init(Context context){
@@ -142,7 +142,7 @@ public class MethodUtil {
 
     }
 }
-```java
+```
 example/android/app/src/main/kotlin/com/zhaizhishe/renting/flutter_tx_record_example/TxRecordReceiver.java
 ```
 public class TxRecordReceiver extends BroadcastReceiver {
