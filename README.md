@@ -78,6 +78,34 @@ allprojects {
     }
 }
 ```
+```java
+if (!liteavSourcePath.isEmpty()) {
+    apply from: new File(getRootDir().getPath(), "../source_link_gradle/liteav_source_build.gradle").getAbsolutePath()
+}
+
+if (!videoEngineSourcePath.isEmpty()) {
+    apply from: new File(getRootDir().getPath(), "../source_link_gradle/videoengine_source_build.gradle").getAbsolutePath()
+}
+```
+```java
+ext {
+    compileSdkVersion = 26
+    buildToolsVersion = "28.0.3"
+    supportSdkVersion = "26.0.1"
+    minSdkVersion = 19
+    targetSdkVersion = 26
+    if (!liteavSourcePath.isEmpty()) {
+        liteavSdk="com.tencent.liteav:LiteAVSDK_UGC:latest.release"
+    } else {
+        liteavSdk="com.tencent.liteav:LiteAVSDK_UGC:latest.release"
+    }
+    imSdk = 'com.tencent.imsdk:imsdk:4.9.1'
+    versionCode = 1
+    versionName = "v1.0"
+    ndkAbi = 'armeabi-v7a,arm64-v8a'//,'armeabi-v7a', 'arm64-v8a'
+    aekit_version = '1.0.10-cloud'
+}
+```
 
 example / android / app / build.gradle
 ```java
