@@ -56,8 +56,10 @@ class FlutterTxRecordPlugin: FlutterPlugin, MethodCallHandler,ActivityAware {
       pluginUitls=PluginUitls(result)
       pluginUitls.init(context,call.argument("licenceUrl"),call.argument("licenseKey"))
     }else if(call.method=="startRecord"){
+      pluginUitls?.setResult(result)
       pluginUitls?.startRecord()
     }else if(call.method=="chooseVideo"){
+      pluginUitls?.setResult(result)
       pluginUitls?.chooseVideo()
     }
 
