@@ -17,6 +17,10 @@ public class PluginUitls {
         result = myResult;
 
     }
+    public void setResult(MethodChannel.Result myResult){
+        result=myResult;
+
+    }
 
     public void init(Context context, String licenceUrl, String licenseKey) {
         this.context = context;
